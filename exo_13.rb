@@ -28,17 +28,13 @@ counter = 1
 faux_emails=[]
 
 50.times do 
-
-    Psample= prenoms.sample
-    Nsample= noms.sample
-    Dsample= nom_de_domaine.sample
-
-    if counter.even?
-      email = "#{Psample}.#{Nsample}#{counter}#{Dsample}"
-    
-      faux_emails << email
-    end
+	Psample= prenoms.sample
+	Nsample= noms.sample
+	Dsample= nom_de_domaine.sample
+	email = "#{Psample}.#{Nsample}#{counter}#{Dsample}"
+	
+		faux_emails << email
     counter+=1
 end
-   puts faux_emails
+puts faux_emails
 
