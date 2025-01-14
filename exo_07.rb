@@ -6,7 +6,7 @@ number = gets.to_i
 if number <= 0
   puts "Veuillez entrer un nombre positif."
 else
-if number >= 100
+if number >= 20
   puts "Veuillez entrer un nombre moins grand."
 else
   (1..number).each do |i|

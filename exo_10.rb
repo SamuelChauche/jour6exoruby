@@ -3,11 +3,10 @@
 #
 puts "Veuillez entrer votre année de naissance :"
 number = gets.to_i
-
 current_year = 2025
 age = 0
-(number..current_year).each do |year|
-  puts "En #{year}, vous aviez #{age} ans."
+(number..current_year).each do |i|
+  puts "En #{i}, vous aviez #{age} ans."
   age += 1
 end
 
